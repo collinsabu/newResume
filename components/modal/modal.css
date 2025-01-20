@@ -1,0 +1,93 @@
+.modal-container-section {
+   position: fixed;
+   top: 0;
+   height: 1600px;
+   width: 100%;
+   background: #000718e2;
+   padding: 200px;
+   margin-top: -100px;
+   z-index: 1;
+}
+
+.modal-container{
+   display: flex;
+   justify-content: center;
+   position: fixed;
+   left: 50px;
+   width: 30%;
+   background-color: red;
+   height: 250px;
+   border-radius: 10px;
+   border: 1px solid white;
+   overflow: hidden;
+}
+
+
+
+.content {
+   padding: 25px 18px;
+   text-align: center;
+   background: rgb(51, 6, 93);
+   flex: 1;
+
+}
+
+.content > h2 {
+   font-size: 15px;
+   margin-bottom: 5px;
+   margin-top: 15px;
+
+}
+
+.content > p {
+   margin-bottom: 25px;
+   font-size: 14px;
+
+}
+.content a {
+   display: block;
+   cursor: pointer;
+   background: white;
+   margin: 15px auto;
+   padding: 5px 8px;
+   border-radius: 18px;
+   color: rgb(51, 6, 93);
+   font-weight: bold;
+   transition: 0.5s ease;
+
+}
+
+
+
+.content a:hover {
+   border: 1px solid white;
+   background: transparent;
+   color: white;
+
+}
+
+.modal-close {
+   float: right;
+   margin-top: -9px;
+   cursor: pointer;
+}
+
+
+/* ======== MEDIA QUERY FOR PHONES ======= */
+ @media screen and (max-width:480px) {
+   .modal-container {
+    flex-direction: column;
+    width: 80%;
+    height: 250px;
+    left: 28px;
+   }
+
+   .modal-image {
+      display: none;
+   }
+
+   .modal-container-section {
+      padding-top: 70px;
+   }
+   }
+

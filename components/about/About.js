@@ -37,7 +37,7 @@ const About = () => {
             <article className="about_card flex justify-center items-center flex-col">
               <BsAward className="about_icon" />
               <h5>Experience</h5>
-              <small>5 years +</small>
+              <small>2 years </small>
             </article>
 
             <article className="about_card flex justify-center items-center flex-col">

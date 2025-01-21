@@ -43,13 +43,13 @@ const About = () => {
             <article className="about_card flex justify-center items-center flex-col">
               <AiOutlineUsergroupAdd className="about_icon" />
               <h5>Clients</h5>
-              <small>35 Worldwide</small>
+              <small>25 Worldwide</small>
             </article>
 
             <article className="about_card flex justify-center items-center flex-col">
               <AiOutlineFolderAdd className="about_icon" />
               <h5>Projects</h5>
-              <small>20+ completed</small>
+              <small>15+ completed</small>
             </article>
           </div>
 
